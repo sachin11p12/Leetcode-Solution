@@ -5,6 +5,8 @@ public class _443_compres_string {
         ans += arr[i];
         int len = j-i;
         if (len>1) ans +=len;
+
+        
         return ans;
     }
     public static void main(String[] args) {
